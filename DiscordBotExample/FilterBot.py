@@ -5,8 +5,8 @@ from tinydb import TinyDB, Query
 from tinydb.operations import delete,increment
 # Requirements: discord.py, tinydb, profanity
 # Define all variables to be used around the script
-description = '''Bot description here'''
-bot = commands.Bot(command_prefix='~', description=description)
+
+bot = commands.Bot(command_prefix='~', description='All-purpose bot.')
 db = TinyDB('data.json')
 Users = Query()
 

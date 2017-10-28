@@ -3,7 +3,7 @@ import asyncio
 from discord.ext.commands import Bot
 from discord.ext import commands
 
-client = Bot(description="Basic Bot by Habchy#1665", command_prefix="PUT YOUR PREFIX HERE", pm_help=True)
+client = Bot(description="MyFirstBot", command_prefix="Prefix", pm_help=True)
 
 
 @client.event
